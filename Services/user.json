@@ -1,0 +1,18 @@
+{
+    "id": 1,
+    "type": "user",
+    "firstName": "Invicta Stores",
+    "lastName": "Europe",
+    "userName": "IWE",
+    "password": "EA2A9D0099C9FED38758F5C4E3276F0716DE1FA648725C46F7B6AFE55D9924A6",
+    "defaulAddress": true,
+    "company": "Invicta Stores Europe",
+    "addressLine1": "Kronenburgpark 12",
+    "addressLine2": null,
+    "city": "Hedel",
+    "state": "JM",
+    "postalCode": "5321",
+    "countryCode": "NL",
+    "phone": "+31 (0)73 - 599 56 60",
+    "email": "support@invictastores.eu"
+}

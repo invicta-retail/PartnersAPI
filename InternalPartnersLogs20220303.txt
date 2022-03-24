@@ -1,0 +1,129 @@
+2022-03-03 10:47:50.688 -06:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-03-03 10:47:50.724 -06:00 [INF] Request starting HTTP/2 GET https://localhost:44394/swagger - -
+2022-03-03 10:47:50.740 -06:00 [INF] Hosting environment: Development
+2022-03-03 10:47:50.742 -06:00 [INF] Content root path: C:\Users\raulf\source\repos\InvictaPartnersAPI
+2022-03-03 10:47:50.786 -06:00 [INF] Request starting HTTP/2 GET https://localhost:44394/swagger/index.html - -
+2022-03-03 10:47:50.861 -06:00 [INF] Request finished HTTP/2 GET https://localhost:44394/swagger - - - 301 - - 142.6631ms
+2022-03-03 10:47:50.918 -06:00 [INF] Request finished HTTP/2 GET https://localhost:44394/swagger/index.html - - - 200 - text/html;charset=utf-8 132.0100ms
+2022-03-03 10:47:50.931 -06:00 [INF] Request starting HTTP/2 GET https://localhost:44394/swagger/swagger-ui-bundle.js - -
+2022-03-03 10:47:50.931 -06:00 [INF] Request starting HTTP/2 GET https://localhost:44394/swagger/swagger-ui.css - -
+2022-03-03 10:47:50.937 -06:00 [INF] Request starting HTTP/2 GET https://localhost:44394/swagger/swagger-ui-standalone-preset.js - -
+2022-03-03 10:47:50.970 -06:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2022-03-03 10:47:50.970 -06:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2022-03-03 10:47:50.977 -06:00 [INF] Request finished HTTP/2 GET https://localhost:44394/swagger/swagger-ui.css - - - 200 142933 text/css 45.9807ms
+2022-03-03 10:47:50.978 -06:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2022-03-03 10:47:50.982 -06:00 [INF] Request finished HTTP/2 GET https://localhost:44394/swagger/swagger-ui-standalone-preset.js - - - 200 311804 application/javascript 47.3243ms
+2022-03-03 10:47:50.996 -06:00 [INF] Request finished HTTP/2 GET https://localhost:44394/swagger/swagger-ui-bundle.js - - - 200 986342 application/javascript 64.7828ms
+2022-03-03 10:47:51.143 -06:00 [INF] Request starting HTTP/2 GET https://localhost:44394/swagger/v1/swagger.json - -
+2022-03-03 10:47:51.179 -06:00 [INF] Request starting HTTP/2 GET https://localhost:44394/swagger/favicon-32x32.png - -
+2022-03-03 10:47:51.182 -06:00 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2022-03-03 10:47:51.184 -06:00 [INF] Request finished HTTP/2 GET https://localhost:44394/swagger/favicon-32x32.png - - - 200 628 image/png 5.0586ms
+2022-03-03 10:47:51.267 -06:00 [INF] Request finished HTTP/2 GET https://localhost:44394/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 123.7810ms
+2022-03-03 10:48:07.098 -06:00 [INF] Request starting HTTP/1.1 GET https://localhost:44394/api/tco/sellware?abx=get_inventory&timeStart=2021-11-02&timeEnd=2022-03-03T11:00:00&page=1&perPage=100&sku=0OO6042-60420352 - -
+2022-03-03 10:48:07.132 -06:00 [INF] Executing endpoint 'InvictaPartnersAPI.Controllers.SellwareController.GetOrdersAsync (InvictaPartnersAPI)'
+2022-03-03 10:48:07.171 -06:00 [INF] Route matched with {action = "GetOrders", controller = "Sellware"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] GetOrdersAsync(System.String, System.String, System.String, System.String, System.String, System.String, System.String) on controller InvictaPartnersAPI.Controllers.SellwareController (InvictaPartnersAPI).
+2022-03-03 10:48:18.163 -06:00 [INF] Resquest by 0.0.0.1 IP
+2022-03-03 10:48:18.165 -06:00 [INF] abx: get_inventory
+2022-03-03 10:48:18.166 -06:00 [INF] updatedAfter: 
+2022-03-03 10:48:18.169 -06:00 [INF] Secret Cn9wgXJ4a_?#na_8
+2022-03-03 10:48:18.171 -06:00 [INF] SellerId TCO Production
+2022-03-03 10:48:18.173 -06:00 [INF] Action get_inventory
+2022-03-03 10:48:18.174 -06:00 [INF] Version 600
+2022-03-03 10:48:18.176 -06:00 [INF] Timestamp 2021-10-28T12:56:00Z
+2022-03-03 10:48:18.177 -06:00 [INF] Signature 00289e39b87d5c020d069cd79caaa05d
+2022-03-03 10:48:18.182 -06:00 [INF] TimeStart:02/11/2021 06:00:00 a. m.
+2022-03-03 10:48:18.183 -06:00 [INF] epochTimeStart:1635832800
+2022-03-03 10:48:18.186 -06:00 [INF] TimeEnd:03/03/2022 05:00:00 p. m.
+2022-03-03 10:48:18.188 -06:00 [INF] epochTimeEnd:1646326800
+2022-03-03 10:48:19.980 -06:00 [INF] Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[InvictaPartnersAPI.Models.SellwareItem, InvictaPartnersAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2022-03-03 10:48:19.993 -06:00 [INF] Executed action InvictaPartnersAPI.Controllers.SellwareController.GetOrdersAsync (InvictaPartnersAPI) in 12816.3084ms
+2022-03-03 10:48:19.997 -06:00 [INF] Executed endpoint 'InvictaPartnersAPI.Controllers.SellwareController.GetOrdersAsync (InvictaPartnersAPI)'
+2022-03-03 10:48:19.999 -06:00 [INF] Request finished HTTP/1.1 GET https://localhost:44394/api/tco/sellware?abx=get_inventory&timeStart=2021-11-02&timeEnd=2022-03-03T11:00:00&page=1&perPage=100&sku=0OO6042-60420352 - - - 200 - application/json;+charset=utf-8 12900.7705ms
+2022-03-03 10:48:37.581 -06:00 [INF] Request starting HTTP/1.1 GET https://localhost:44394/api/tco/sellware?abx=get_inventory&timeStart=2021-11-02&timeEnd=2022-03-03T11:00:00&page=1&perPage=100&sku=K447747-00000-00000 - -
+2022-03-03 10:48:37.586 -06:00 [INF] Executing endpoint 'InvictaPartnersAPI.Controllers.SellwareController.GetOrdersAsync (InvictaPartnersAPI)'
+2022-03-03 10:48:37.588 -06:00 [INF] Route matched with {action = "GetOrders", controller = "Sellware"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] GetOrdersAsync(System.String, System.String, System.String, System.String, System.String, System.String, System.String) on controller InvictaPartnersAPI.Controllers.SellwareController (InvictaPartnersAPI).
+2022-03-03 10:48:45.840 -06:00 [INF] Resquest by 0.0.0.1 IP
+2022-03-03 10:48:45.843 -06:00 [INF] abx: get_inventory
+2022-03-03 10:48:45.844 -06:00 [INF] updatedAfter: 
+2022-03-03 10:48:45.846 -06:00 [INF] Secret Cn9wgXJ4a_?#na_8
+2022-03-03 10:48:45.847 -06:00 [INF] SellerId TCO Production
+2022-03-03 10:48:45.848 -06:00 [INF] Action get_inventory
+2022-03-03 10:48:45.850 -06:00 [INF] Version 600
+2022-03-03 10:48:45.853 -06:00 [INF] Timestamp 2021-10-28T12:56:00Z
+2022-03-03 10:48:45.855 -06:00 [INF] Signature 00289e39b87d5c020d069cd79caaa05d
+2022-03-03 10:48:45.856 -06:00 [INF] TimeStart:02/11/2021 06:00:00 a. m.
+2022-03-03 10:48:45.858 -06:00 [INF] epochTimeStart:1635832800
+2022-03-03 10:48:45.859 -06:00 [INF] TimeEnd:03/03/2022 05:00:00 p. m.
+2022-03-03 10:48:45.860 -06:00 [INF] epochTimeEnd:1646326800
+2022-03-03 10:49:08.641 -06:00 [INF] Executed action InvictaPartnersAPI.Controllers.SellwareController.GetOrdersAsync (InvictaPartnersAPI) in 31051.1578ms
+2022-03-03 10:49:08.643 -06:00 [INF] Executed endpoint 'InvictaPartnersAPI.Controllers.SellwareController.GetOrdersAsync (InvictaPartnersAPI)'
+2022-03-03 10:49:11.064 -06:00 [ERR] An unhandled exception has occurred while executing the request.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at InvictaPartnersAPI.Controllers.SellwareController.GetOrdersAsync(String abx, String updatedAfter, String sku, String perPage, String page, String timeStart, String timeEnd) in C:\Users\raulf\source\repos\InvictaPartnersAPI\Controllers\SellwareController.cs:line 236
+   at lambda_method96(Closure , Object )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ExceptionContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at InvictaPartnersAPI.Helpers.JwtMiddleware.Invoke(HttpContext context, IUserService userService) in C:\Users\raulf\source\repos\InvictaPartnersAPI\Helpers\JwtMiddleware.cs:line 31
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.<Invoke>g__Awaited|6_0(ExceptionHandlerMiddleware middleware, HttpContext context, Task task)
+2022-03-03 10:49:11.138 -06:00 [WRN] No exception handler was found, rethrowing original exception.
+2022-03-03 10:49:11.141 -06:00 [ERR] An unhandled exception has occurred while executing the request.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at InvictaPartnersAPI.Controllers.SellwareController.GetOrdersAsync(String abx, String updatedAfter, String sku, String perPage, String page, String timeStart, String timeEnd) in C:\Users\raulf\source\repos\InvictaPartnersAPI\Controllers\SellwareController.cs:line 236
+   at lambda_method96(Closure , Object )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ExceptionContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at InvictaPartnersAPI.Helpers.JwtMiddleware.Invoke(HttpContext context, IUserService userService) in C:\Users\raulf\source\repos\InvictaPartnersAPI\Helpers\JwtMiddleware.cs:line 31
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.<Invoke>g__Awaited|6_0(ExceptionHandlerMiddleware middleware, HttpContext context, Task task)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.HandleException(HttpContext context, ExceptionDispatchInfo edi)
+   at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware.<Invoke>g__Awaited|6_0(ExceptionHandlerMiddleware middleware, HttpContext context, Task task)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2022-03-03 10:49:11.152 -06:00 [INF] Request finished HTTP/1.1 GET https://localhost:44394/api/tco/sellware?abx=get_inventory&timeStart=2021-11-02&timeEnd=2022-03-03T11:00:00&page=1&perPage=100&sku=K447747-00000-00000 - - - 500 - text/plain 33571.4708ms
+2022-03-03 10:51:54.619 -06:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-03-03 10:51:54.643 -06:00 [INF] Request starting HTTP/2 GET https://localhost:44394/swagger/index.html - -
+2022-03-03 10:51:54.657 -06:00 [INF] Hosting environment: Development
+2022-03-03 10:51:54.660 -06:00 [INF] Content root path: C:\Users\raulf\source\repos\InvictaPartnersAPI
+2022-03-03 10:51:54.750 -06:00 [INF] Request finished HTTP/2 GET https://localhost:44394/swagger/index.html - - - 200 - text/html;charset=utf-8 109.9425ms
+2022-03-03 10:51:54.919 -06:00 [INF] Request starting HTTP/2 GET https://localhost:44394/swagger/v1/swagger.json - -
+2022-03-03 10:51:54.997 -06:00 [INF] Request finished HTTP/2 GET https://localhost:44394/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 78.6904ms
+2022-03-03 10:51:59.769 -06:00 [INF] Request starting HTTP/1.1 GET https://localhost:44394/api/tco/sellware?abx=get_inventory&timeStart=2021-11-02&timeEnd=2022-03-03T11:00:00&page=1&perPage=100&sku=K447747-00000-00000 - -
+2022-03-03 10:51:59.806 -06:00 [INF] Executing endpoint 'InvictaPartnersAPI.Controllers.SellwareController.GetOrdersAsync (InvictaPartnersAPI)'
+2022-03-03 10:51:59.839 -06:00 [INF] Route matched with {action = "GetOrders", controller = "Sellware"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] GetOrdersAsync(System.String, System.String, System.String, System.String, System.String, System.String, System.String) on controller InvictaPartnersAPI.Controllers.SellwareController (InvictaPartnersAPI).
+2022-03-03 10:52:04.179 -06:00 [INF] Resquest by 0.0.0.1 IP
+2022-03-03 10:52:04.186 -06:00 [INF] abx: get_inventory
+2022-03-03 10:52:04.188 -06:00 [INF] updatedAfter: 
+2022-03-03 10:52:04.190 -06:00 [INF] Secret Cn9wgXJ4a_?#na_8
+2022-03-03 10:52:04.191 -06:00 [INF] SellerId TCO Production
+2022-03-03 10:52:04.193 -06:00 [INF] Action get_inventory
+2022-03-03 10:52:04.194 -06:00 [INF] Version 600
+2022-03-03 10:52:04.195 -06:00 [INF] Timestamp 2021-10-28T12:56:00Z
+2022-03-03 10:52:04.197 -06:00 [INF] Signature 00289e39b87d5c020d069cd79caaa05d
+2022-03-03 10:52:04.202 -06:00 [INF] TimeStart:02/11/2021 06:00:00 a. m.
+2022-03-03 10:52:04.204 -06:00 [INF] epochTimeStart:1635832800
+2022-03-03 10:52:04.206 -06:00 [INF] TimeEnd:03/03/2022 05:00:00 p. m.
+2022-03-03 10:52:04.207 -06:00 [INF] epochTimeEnd:1646326800
+2022-03-03 10:52:06.108 -06:00 [INF] Executing ConflictObjectResult, writing value of type '<>f__AnonymousType3`1[[<>f__AnonymousType2`3[[System.Int32, System.Private.CoreLib, Version=5.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=5.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=5.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]][], InvictaPartnersAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2022-03-03 10:52:06.124 -06:00 [INF] Executed action InvictaPartnersAPI.Controllers.SellwareController.GetOrdersAsync (InvictaPartnersAPI) in 6279.8692ms
+2022-03-03 10:52:06.128 -06:00 [INF] Executed endpoint 'InvictaPartnersAPI.Controllers.SellwareController.GetOrdersAsync (InvictaPartnersAPI)'
+2022-03-03 10:52:06.131 -06:00 [INF] Request finished HTTP/1.1 GET https://localhost:44394/api/tco/sellware?abx=get_inventory&timeStart=2021-11-02&timeEnd=2022-03-03T11:00:00&page=1&perPage=100&sku=K447747-00000-00000 - - - 409 - application/json;+charset=utf-8 6361.9660ms
